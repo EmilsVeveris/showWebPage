@@ -16,4 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
   });
+
+Route::get('/CV', function () {
+    return view('/AboutME/CV');
+  });
+
+//Route::get('/admin', 'AdminController@index')
 //test
